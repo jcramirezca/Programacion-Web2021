@@ -1,0 +1,25 @@
+#PProductos h4 {
+    text-align: center;
+    font-family: 'Dela Gothic One', cursive;
+}
+
+#PProductos a{
+    text-decoration: none;
+    color: black;
+}
+
+
+#PProductos .contenedor{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#PProductos article {
+    margin: 15px;
+}
+
+#PProductos img {
+    width: 100%;
+    max-width: 300px;
+}

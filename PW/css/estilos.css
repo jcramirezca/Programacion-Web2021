@@ -1,0 +1,174 @@
+@import url(menu.css);
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    height: 50px;
+    background-color: #0d0a2b;
+    color: #ffffff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    font-family: 'Roboto';
+}
+
+.contenedor {
+    width: 98%;
+    margin: auto;
+}
+
+h2 {
+    float: left;
+}
+
+header .contenedor {
+    display: table;
+}
+
+h6{
+    position: absolute;
+    top: 30px;
+    color: #31CD95;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#Principal .contenedor2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+div img{
+    height: 147px;
+    width: 130px;
+    background-repeat: no-repeat;
+    background-position: 30%;
+    border-radius: 110%;
+    background-size: 110% auto;
+    margin-left: 5%;
+    border: 3px solid #31CD95;
+    box-sizing: border-box;
+}
+
+.Principal {
+    width: 360px;
+    height: 270px;
+    text-align: center;
+    margin: 10px;
+    margin-top: 70px;
+    padding: 20px;
+    background-color: #F9F8F8;
+    font-family: 'Roboto Slab';
+}
+
+.Perfil {
+    width: 480px;
+    height: 270px;
+    text-align: left;
+    margin: 10px;
+    margin-top: auto;
+    padding-top: 32px;
+    padding-left: 25px;
+    background-color:#F9F8F8;
+    font-family: 'Roboto Slab';
+    
+}
+
+ul.menu1 { 
+  margin-left: 4%;
+}
+
+.Habilidades {
+    width: 360px;
+    height: 270px;
+    text-align: left;
+    margin: 10px;
+    margin-top: 10px;
+    padding-top: 3rem;
+    padding-left: 30px;
+    background-color: #F9F8F8;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.Formacion {
+    width: 480px;
+    height: 270px;
+    text-align: left;
+    margin: 10px;
+    margin-top: 10px;
+    padding: 20px;
+    padding-top: 3rem;
+    background-color: #F9F8F8;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+.Experiencia {
+    width: 360px;
+    height: 200px;
+    text-align: left;
+    margin: 10px;
+    margin-top: 10px;
+    padding-top: 2rem;
+    padding-left: 30px;
+    background-color: #F9F8F8;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.Hobbys {
+    width: 480px;
+    height: 200px;
+    text-align: left;
+    margin: 10px;
+    margin-top: 10px;
+    padding-top: 2rem;
+    padding-left: 25px;
+    background-color: #F9F8F8;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+@media (min-width:1024px){
+    .contenedor {
+        width: 1000px;
+    }
+}
+
+.C1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding-top: 1rem;
+}
+
+footer .Footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    background: #0d0a2b;
+    color: #ffffff;
+    margin-top: 1%;
+    padding-bottom: 25px;
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+.C1 a {
+    color: #31CD95;
+    text-decoration: none;
+    padding-left: 0.5%;
+    padding-right: 0.5%;
+}
+

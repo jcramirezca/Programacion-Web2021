@@ -1,0 +1,28 @@
+
+#Novedades {
+    text-align: center;
+}
+
+#Novedades .contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.producto {
+    margin: 10px;
+}
+
+.producto img {
+    width: 230px;
+    height: 230px;
+}
+
+h4 {
+    font-family: 'Roboto', sans-serif;
+}
+
+p{
+    font-family: 'Inconsolata', monospace;
+    font-size: 15px;
+}
