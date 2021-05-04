@@ -1,0 +1,164 @@
+@import url(menu.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    height: 50px;
+    background-color: #000;
+    color: #ffffff;
+    top: 0;
+    left: 0;
+    margin-bottom: 10px;
+    z-index: 100;
+    font-family: 'Roboto';
+}
+
+.contenedor {
+    width: 98%;
+    margin: auto;
+}
+
+#menu p {
+    float: left;
+    margin-top: 10px;
+    font-family: 'Russo One', sans-serif;
+    font-size: 25px;
+}
+
+header .contenedor {
+    display: table;
+}
+
+.contenedort{
+    max-width: 1000px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+aside {
+	min-width: 30%;
+    margin: 20px 20px 20px 0;
+	height: 100%;
+	background: rgb(190, 120, 54) ;
+	padding: 20px;
+	border-radius: 3px;
+    position: sticky;
+    top: 20px;
+}
+
+aside .titulo
+{
+    font-family: Arial, sans-serif;  
+	font-weight: normal;
+	font-size: 24px;
+	margin-bottom: 20px;
+	color: rgb(255, 255, 255);
+    font-style: inherit;
+}
+
+
+aside .indice a 
+{
+	display: block;
+	margin-bottom: 10px;
+	color: #000;
+    font-family: 'Russo One', sans-serif;
+}
+
+.contenedorC p {
+    margin-bottom: 20px;
+    line-height: 20px;
+    text-align: justify;
+}
+
+.automatizadores
+{
+    width: 700px;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin: 20px;
+    text-align: left;
+    background-color: #F9F8F8;
+    border-radius: 3px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.DevOps
+{
+    width:700px;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin: 20px;
+    text-align: left;
+    background-color: #F9F8F8;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.CICD
+{
+    width:700px;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin: 20px;
+    text-align: left;
+    background-color: #F9F8F8;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.FullS
+{
+    width:700px;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin: 20px;
+    text-align: left;
+    background-color: #F9F8F8;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.contenedorC ul {
+    margin-left: 20px;
+}
+
+@media (min-width:1024px){
+    .contenedor {
+        width: 1000px;
+    }
+}
+
+@media (max-width:1024px) 
+{
+    .contenedort {
+		flex-direction: column;
+	}
+    .contenedorC{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+	aside{
+	 position: relative;
+    }
+}
+
+
