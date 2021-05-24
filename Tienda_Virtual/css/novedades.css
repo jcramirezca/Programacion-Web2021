@@ -11,6 +11,7 @@
 
 .producto {
     margin: 10px;
+    padding: auto;
 }
 
 .producto img {
@@ -25,4 +26,16 @@ h4 {
 p{
     font-family: 'Inconsolata', monospace;
     font-size: 15px;
+}
+
+button.icon-basket{
+    border: none;
+    color: #333;
+    background: none;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.icon-basket:hover{
+     color: #7FDD4C ;
 }

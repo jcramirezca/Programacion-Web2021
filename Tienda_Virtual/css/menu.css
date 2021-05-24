@@ -27,7 +27,7 @@ header label {
     text-decoration: none;
     padding: 15px;
     border-bottom: 1px solid rgb(255, 255, 255,0.5);
-    font-family: Verdana;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 .menu a:hover {
@@ -37,6 +37,22 @@ header label {
 #menu-bar:checked ~  .menu{
     transform: translateX(0%);  
 }
+
+button.icon-bag{
+    border: none;
+    color: #fff;
+    background: none;
+    cursor: pointer;
+    padding: 15px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 16px;
+    border-bottom: 1px solid rgb(255, 255, 255,0.5);
+}
+
+.icon-bag:hover{
+     color: #7FDD4C ;
+}
+
 
 @media (min-width:1024px) {
     .menu {
@@ -60,5 +76,18 @@ header label {
 
     .menu a:hover {
         background: rgba(40, 168, 207, 0.5) ;
+    }
+
+    button.icon-bag{
+        border: none;
+        color: #fff;
+        background: none;
+        cursor: pointer;
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: 16px;
+    }
+    
+    .icon-bag:hover{
+         color: #7FDD4C ;
     }
 }

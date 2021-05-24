@@ -12,6 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Noto+Serif:ital@0;1&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
     <link rel="shortcut icon" type="image/x-icon" href="imagenes/Logo2.png">
+    <script src="js/carrito.js"></script>
     
     <title>Vibra Brutal</title>
 </head>
@@ -29,7 +30,8 @@
                     <a href="">Niños</a>
                     <a href="">Novedades</a>
                     <a href="">Ofertas</a>
-                    <a href="">Colecciones</a>
+                    <button id="checkout" class="icon-bag" onclick="pagar()">Carrito</button>
+                    
                 </nav>
             </div> 
         </header>
@@ -73,24 +75,28 @@
             <section id="Novedades">
             <div class="contenedor">
                 <div class="producto">
-                    <img src="imagenes/model1.jpg">
-                    <h4>Camiseta titular Colombia</h4>
+                    <img src="imagenes/model1.jpg" >
+                    <h4>Camiseta Selección Colombia</h4>
                     <p>$219.990</p>
+                    <button class="icon-basket" onclick="add('Camiseta Selección Colombia',219990)"></button>
                 </div>
                 <div class="producto">
                     <img src="imagenes/model2.jpg">
                     <h4>Camiseta Adidas</h4>
                     <p>$59.990</p>
+                    <button class="icon-basket" onclick="add('Camiseta Adidas',59990)"></button>
                 </div>
                 <div class="producto">
                     <img src="imagenes/model3.jpg">
                     <h4>Tenis Racer</h4>
                     <p>$109.990</p>
+                    <button class="icon-basket" onclick="add('Tenis Racer',109990)"></button>
                 </div>
                 <div class="producto">
                     <img src="imagenes/model4.jpg">
                     <h4>Sudadera de entrenamiento</h4>
                     <p>$80.000</p>
+                    <button class="icon-basket" onclick="add('Sudadera de entrenamiento',80000)"></button>
                 </div>
             </div>
         </section>
