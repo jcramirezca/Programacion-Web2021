@@ -1,114 +1,100 @@
-h1 {
-    text-align: center;
-    font-family: 'Dela Gothic One', cursive;   
+
+h1{
+  margin: 5px 20px;
+  font-family: 'Dela Gothic One', cursive;
+  text-align: center;
+}
+p {
+  font-family: 'Segoe UI';
+  margin: 20px 20px 0px 20px;
 }
 
-p{
-    font-family: 'Segoe UI';
-    text-align: center;
+/**
+* Styles for the puzzle
+*/
+#juego {
+  border: 2px solid black;
+  padding: 20px;
+  float: right;
+  margin-right: 320px;
+  margin-top: 30px;
+}
+
+#juego div {
+  width: 100%;
+  margin: 0 auto;
+  
+}
+
+/* style for each square in the puzzle */
+#juego .puzzleSquare {
+  height: 30px;
+  width: 30px;
+  text-transform: uppercase;
+  background-color: white;
+  border: 0.5px solid black;
+  font: 1em sans-serif;
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  border: 0;
+}
+
+#juego .selected {
+  background-color: rgb(42, 89, 190);
+}
+
+#juego .found {
+  background-color: rgb(35, 40, 112);
+  color: white;
+}
+
+#juego .solved {
+  background-color: rgb(209, 65, 21);
+  color: white;
+}
+
+#juego .complete {
+  background-color: green;
 }
 
 
-.contenedor {
-    position: relative;
-    width: 30rem;
-    height: 25rem;
-    margin: auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+#Palabras {
+  padding-top: 30px;
+  -moz-column-count: 2;
+  -moz-column-gap: 30px;
+  -webkit-column-count: 2;
+  -webkit-column-gap: 20px;
+  column-count: 2;
+  column-gap: 20px;
+  width: 300px;
+  margin-left: 300px;
 }
 
-.item {
-    color: black;
-    flex: none;
-    width: 8.2%;
-    margin-right: 1%;
-    margin-bottom: 1%;
-    border: 1px solid #000;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Poppins', sans-serif;
+#Palabras ul {
+  list-style-type: none;
+  margin-top: auto;
 }
 
-.Index{
-    background: rgb(66, 199, 199);
-    width: 80%;
-    height: 80%;
-    border-radius: 100%;   
-    text-align: center;
+#Palabras li {
+  padding: 3px 0;
+  font: 1em sans-serif;
 }
 
-.Div{
-    background: rgb(238, 118, 20);
-    width: 80%;
-    height: 80%;
-    border-radius: 100%;   
-    text-align: center;
+#Palabras .wordFound {
+  text-decoration: line-through;
+  color: gray;
 }
 
-.Class{
-    background: rgb(247, 0, 0);
-    width: 80%;
-    height: 80%;
-    border-radius: 100%;   
-    text-align: center;
+
+#solve {
+  margin: 30px 30px 0 400px;
+  background: none;
+  cursor: pointer;
+  font-family: Verdana;
 }
 
-.Head{
-    background: rgb(4, 161, 38);
-    width: 80%;
-    height: 80%;
-    border-radius: 100%;   
-    text-align: center;
-}
-
-.Main{
-    background: rgb(184, 17, 147);
-    width: 80%;
-    height: 80%;
-    border-radius: 100%;   
-    text-align: center;
-}
-
-.Article{
-    background: rgb(167, 184, 17);
-    width: 80%;
-    height: 80%;
-    border-radius: 100%;   
-    text-align: center;
-}
-
-.Section{
-    background: rgb(17, 84, 184);
-    width: 80%;
-    height: 80%;
-    border-radius: 100%;   
-    text-align: center;
-}
-
-.Margin{
-    background: rgb(230, 203, 0);
-    width: 80%;
-    height: 80%;
-    border-radius: 100%;   
-    text-align: center;
-}
-
-.Body{
-    background: rgb(230, 0, 165);
-    width: 80%;
-    height: 80%;
-    border-radius: 100%;   
-    text-align: center;
-}
-
-.Font{
-    background: #DAF7A6 ;
-    width: 80%;
-    height: 80%;
-    border-radius: 100%;   
-    text-align: center;
+#solve:hover{
+  color:red;
 }
